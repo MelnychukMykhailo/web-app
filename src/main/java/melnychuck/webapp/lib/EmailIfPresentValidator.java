@@ -1,6 +1,5 @@
 package melnychuck.webapp.lib;
 
-
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import lombok.RequiredArgsConstructor;

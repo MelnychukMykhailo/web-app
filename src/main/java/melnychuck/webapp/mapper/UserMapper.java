@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class UserMapper {
-
     public UserResponseDto mapToDto(User user) {
         UserResponseDto responseDto = new UserResponseDto();
         responseDto.setId(user.getId());
@@ -30,5 +29,4 @@ public class UserMapper {
         user.setPhoneNumber(requestDto.getPhoneNumber());
         return user;
     }
-
 }

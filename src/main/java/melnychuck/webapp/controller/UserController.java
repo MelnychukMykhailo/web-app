@@ -105,5 +105,4 @@ public class UserController {
                 .map(userMapper::mapToDto)
                 .toList();
     }
-
 }
